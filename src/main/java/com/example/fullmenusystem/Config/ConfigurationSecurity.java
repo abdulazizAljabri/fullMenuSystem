@@ -48,6 +48,7 @@ public class ConfigurationSecurity {
                 .requestMatchers("/api/v1/menus/update/{id}").hasAuthority("ADMIN")
                 .requestMatchers("/api/v1/customers/usecoupon/{couponCode}").hasAuthority("USER")
                 .requestMatchers("/api/v1/customers/buy/{productName}").hasAuthority("USER")
+                .requestMatchers("/api/v1/bill/").hasAuthority("ADMIN")
                 .anyRequest().authenticated()
                 .and()
                 .logout().logoutUrl("/api/v1/auth/logout")
