@@ -1,7 +1,7 @@
 package com.example.fullmenusystem.Controller;
 
 import com.example.fullmenusystem.Api.ApiResponse;
-import com.example.fullmenusystem.Controller.dto.DTOUser;
+import com.example.fullmenusystem.dto.DTOUser;
 import com.example.fullmenusystem.Model.User;
 import com.example.fullmenusystem.Service.AuthService;
 import jakarta.validation.Valid;

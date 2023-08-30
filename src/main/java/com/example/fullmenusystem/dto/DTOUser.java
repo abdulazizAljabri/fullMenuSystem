@@ -1,4 +1,4 @@
-package com.example.fullmenusystem.Controller.dto;
+package com.example.fullmenusystem.dto;
 
 import jakarta.persistence.Column;
 import jakarta.validation.constraints.NotEmpty;

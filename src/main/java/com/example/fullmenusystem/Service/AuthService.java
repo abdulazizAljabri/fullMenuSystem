@@ -1,7 +1,7 @@
 package com.example.fullmenusystem.Service;
 
 import com.example.fullmenusystem.Model.Customer;
-import com.example.fullmenusystem.Controller.dto.DTOUser;
+import com.example.fullmenusystem.dto.DTOUser;
 import com.example.fullmenusystem.Model.User;
 import com.example.fullmenusystem.Repository.AuthRepository;
 import com.example.fullmenusystem.Repository.CustomerRepository;
