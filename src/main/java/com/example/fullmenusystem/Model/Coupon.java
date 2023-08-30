@@ -21,6 +21,7 @@ public class Coupon {
     private String couponCode;
 
     @NotNull(message = "should be not null")
+    @Column(columnDefinition = "double not null")
     private Double couponPrice;
 
     @Column(columnDefinition = "varchar(10) NOT NULL check(status = 'active' or status = 'used')")

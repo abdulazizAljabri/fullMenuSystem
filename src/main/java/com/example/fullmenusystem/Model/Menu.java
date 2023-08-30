@@ -22,8 +22,10 @@ public class Menu {
     @Column(columnDefinition = "varchar(10) NOT NULL unique")
     private String productName;
     @Column(columnDefinition = "varchar(15) NOT NULL check(category = 'drinks' or category = 'meals' or category = 'sweets')")
+    @NotEmpty(message = "should be not empty")
     private String category;
     @Column(columnDefinition = "int ")
+    @NotNull(message = "should be not empty")
     private Integer productCount;
 
     @NotNull(message = "should be not null")
