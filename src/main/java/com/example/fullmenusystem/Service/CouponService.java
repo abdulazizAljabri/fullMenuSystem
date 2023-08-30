@@ -38,6 +38,7 @@ public class CouponService {
         }
         coupons.setStatus(coupon.getStatus());
         coupons.setCouponPrice(coupon.getCouponPrice());
+        couponRepository.save(coupons);
     }
 
     public void endCoupons(Integer id) {

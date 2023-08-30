@@ -22,16 +22,6 @@ public class MenuService {
         return menuRepository.findAll();
     }
 
-//    public List<Menu> getProductsOfCustomer(Integer customer_id) {
-//      Customer customer = customerRepository.findCustomerById(customer_id);
-//        return menuRepository.findAllByCustomer(customer);
-//    }
-//    public void addProductToUser(Integer customer_id,Menu product) {
-//        Customer customer = customerRepository.findCustomerById(customer_id);
-//        product.setCustomer(customer);
-//
-//        menuRepository.save(product);
-//    }
     public void addMenu(Menu menu) {
         menuRepository.save(menu);
     }
